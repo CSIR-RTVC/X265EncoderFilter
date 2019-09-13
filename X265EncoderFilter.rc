@@ -1,0 +1,152 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "Windows.h"
+
+#ifdef IDC_STATIC
+#undef IDC_STATIC
+#endif
+#define IDC_STATIC              (-1)     // all static controls
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (South Africa) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENS)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_SOUTH_AFRICA
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_H264PROP_DIALOG DIALOGEX 0, 0, 220, 300
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Mode of operation:", IDC_STATIC, 21, 13, 62, 8
+    COMBOBOX        IDC_CMB_MODE_OF_OPERATION, 105, 13, 48, 30, CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Frame bit limit:", IDC_STATIC, 22, 33, 48, 8
+    EDITTEXT        IDC_EDIT_BITRATE_LIMIT,105,32,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,133,31,10,14
+    LTEXT           "Quality:", IDC_STATIC, 22, 52, 26, 8
+    EDITTEXT        IDC_EDIT_QUALITY, 105, 53, 40, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN3, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 134, 53, 10, 14
+    LTEXT           "I-frame period:", IDC_STATIC, 21, 74, 50, 8
+    EDITTEXT        IDC_EDIT_IFRAME_PERIOD,105,74,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,134,74,10,14
+    
+    LTEXT           "max bits per frame:", IDC_STATIC, 22, 94, 80, 8
+    EDITTEXT        IDC_EDIT_MAX_BITS_PER_FRAME, 105, 94, 60, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN4, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 154, 94, 10, 14
+    LTEXT           "num rate control frames:", IDC_STATIC, 22, 114, 90, 8
+    EDITTEXT        IDC_EDIT_NUM_RATE_CONTROL_FRAMES, 105, 114, 40, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN5, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 134, 114, 10, 14
+    LTEXT           "max distortion:", IDC_STATIC, 22, 134, 62, 8
+    EDITTEXT        IDC_EDIT_MAX_DIST, 105, 134, 50, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN6, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 144, 134, 10, 14
+    LTEXT           "ipicture dmax:", IDC_STATIC, 22, 154, 62, 8
+    EDITTEXT        IDC_EDIT_IPICTURE_DMAX_MULT, 105, 154, 25, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN7, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 114, 154, 10, 14
+    LTEXT           ".", IDC_STATIC, 132, 154, 5, 8
+    EDITTEXT        IDC_EDIT_IPICTURE_DMAX_FRAC, 135, 154, 25, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN8, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 185, 164, 10, 14
+    LTEXT           "minimum intra qp:", IDC_STATIC, 22, 174, 62, 8
+    EDITTEXT        IDC_EDIT_MIN_INTRA_QP, 105, 174, 40, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN9, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 134, 174, 10, 14
+    LTEXT           "minimum inter qp:", IDC_STATIC, 22, 194, 62, 8
+    EDITTEXT        IDC_EDIT_MIN_INTER_QP, 105, 194, 40, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN10, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 134, 194, 10, 14
+    LTEXT           "rate overshoot percent:", IDC_STATIC, 22, 214, 62, 8
+    EDITTEXT        IDC_EDIT_RATE_OVERSHOOT_PERCENT, 105, 214, 40, 14, ES_AUTOHSCROLL
+    CONTROL         "", IDC_SPIN11, "msctls_updown32", UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS, 134, 214, 10, 14
+
+    CONTROL         "Notify on I-frame",IDC_CHECK_NOTIFY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,234,71,10
+
+    LTEXT           "Output Media Type:", IDC_STATIC, 20, 254, 65, 8
+    CONTROL         "MEDIASUBTYPE_VPP_H264", IDC_RADIO_VPP, "Button", BS_AUTORADIOBUTTON, 25, 265, 103, 10
+    CONTROL         "MEDIASUBTYPE_H264", IDC_RADIO_H264, "Button", BS_AUTORADIOBUTTON, 25, 276, 87, 10
+    CONTROL         "MEDIASUBTYPE_AVC1", IDC_RADIO_AVC1, "Button", BS_AUTORADIOBUTTON, 25, 287, 87, 10
+
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_H264PROP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDD_H264PROP_CAPTION      "CSIR H264 Encoder Properties"
+END
+
+#endif    // English (South Africa) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
